@@ -1,0 +1,10 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.train-motion.com	TRUE	/	FALSE	1999999999	woocommerce_items_in_cart	1
+www.train-motion.com	TRUE	/	FALSE	1999999999	wp_woocommerce_session_2be702fa88321ebe4b10efab5e944902	ff9760f32dcceda019d43df82e7449b4%7C%7C1595150053%7C%7C1595146453%7C%7C5fb6a38bee564adb907899da1b91177f
+www.train-motion.com	TRUE	/	FALSE	1999999999	yith_wcwl_products	%5B%7B%22prod_id%22%3A%22298%22%2C%22quantity%22%3A1%2C%22wishlist_id%22%3Afalse%2C%22dateadded%22%3A%222020-07-17+09%3A52%3A48%22%7D%5D
+www.train-motion.com	TRUE	/	FALSE	1999999999	PHPSESSID	92a873fab9ad671e464e9398fda4c86d
+www.train-motion.com	TRUE	/	FALSE	1999999999	wordpress_test_cookie	WP+Cookie+check
+www.train-motion.com	TRUE	/	FALSE	1999999999	woocommerce_cart_hash	c12c3e8f91b0cd00a38b52441754e6f7
+www.train-motion.com	TRUE	/	FALSE	1999999999	ywsl_wp_session	1c239f667c6ebc37efaa5458098b8df7%7C%7C1595022808%7C%7C1595021008
+
