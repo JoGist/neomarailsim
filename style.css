@@ -337,7 +337,7 @@ input:focus {
   background: linear-gradient(rgba(29, 35, 38, 0.8), rgba(29, 35, 38, 0.8)), url(https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/84975425_2823785284349486_5911962615394861056_o.jpg?_nc_cat=105&_nc_sid=b9115d&_nc_ohc=4b_ehsKWzjsAX-Fz8et&_nc_ht=scontent-mxp1-1.xx&oh=24691ae332fb524b39b624791d5ec1ff&oe=5F38C722) no-repeat top left/cover;
   text-align: center;
   padding: 1.4rem 1.4rem 2.8rem;
-  height: 45em;
+  height: 50em;
 }
 .header-image .button {
   margin: 0.7rem;
@@ -736,4 +736,130 @@ input:focus {
   -webkit-animation: fadein 0.3s forwards ease-out;
           animation: fadein 0.3s forwards ease-out;
   display: block;
+}
+
+/*html, body {
+  background: #F7F5E6;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+*/
+
+.slider {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+.slide_viewer {
+  height: 340px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide_group {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.slide:first-child {
+  display: block;
+}
+
+.slide:nth-of-type(1) {
+  background: #D7A151;
+}
+
+.slide:nth-of-type(2) {
+  background: #F4E4CD;
+}
+
+.slide:nth-of-type(3) {
+  background: #C75534;
+}
+
+.slide:nth-of-type(4) {
+  background: #D1D1D4;
+}
+
+.slide_buttons {
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+a.slide_btn {
+  color: #474544;
+  font-size: 42px;
+  margin: 0 0.175em;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.slide_btn.active, .slide_btn:hover {
+  color: #428CC6;
+  cursor: pointer;
+}
+
+.directional_nav {
+  height: 340px;
+  margin: 0 auto;
+  max-width: 940px;
+  position: relative;
+  top: -340px;
+}
+
+.previous_btn {
+  bottom: 0;
+  left: 100px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+}
+
+.next_btn {
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  right: 100px;
+  top: 0;
+}
+
+.previous_btn, .next_btn {
+  cursor: pointer;
+  height: 65px;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+  width: 65px;
+}
+
+.previous_btn:hover, .next_btn:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  .previous_btn {
+    left: 50px;
+  }
+  .next_btn {
+    right: 50px;
+  }
 }
