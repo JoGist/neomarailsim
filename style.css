@@ -7,10 +7,11 @@
 html {
   box-sizing: border-box;
   line-height: 1.4;
+  font-size: 15px;
 }
 
 body {
-  color: #678EB2;
+  color: #77ce45;
   font-family: Lato, "Helvetica Neue", sans-serif;
 }
 
@@ -24,7 +25,7 @@ a {
 
 main a {
   box-shadow: inset 0 -2px #F2B139;
-  color: #229FBF;
+  color: #77ce45;
 }
 main a:hover {
   box-shadow: inset 0 -30em #F2B139;
@@ -167,6 +168,7 @@ input:focus {
   margin: 0;
   padding: 0;
   text-align: center;
+  width: 100%;
 }
 .inline-list::after {
   clear: both;
