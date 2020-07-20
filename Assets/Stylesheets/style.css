@@ -348,6 +348,7 @@ input:focus {
   height: 3rem;
   position: relative;
   top: -0.4em;
+  cursor: default;
 }
 
 .logo-medium {
@@ -395,6 +396,10 @@ input:focus {
 	background: url(https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/84975425_2823785284349486_5911962615394861056_o.jpg?_nc_cat=105&_nc_sid=b9115d&_nc_ohc=4b_ehsKWzjsAX-Fz8et&_nc_ht=scontent-mxp1-1.xx&oh=24691ae332fb524b39b624791d5ec1ff&oe=5F38C722) no-repeat top left/cover;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 35, 38, 0.8)), to(rgba(29, 35, 38, 0.8))), url(https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/84975425_2823785284349486_5911962615394861056_o.jpg?_nc_cat=105&_nc_sid=b9115d&_nc_ohc=4b_ehsKWzjsAX-Fz8et&_nc_ht=scontent-mxp1-1.xx&oh=24691ae332fb524b39b624791d5ec1ff&oe=5F38C722) no-repeat top left/cover;
   background: linear-gradient(rgba(29, 35, 38, 0.8), rgba(29, 35, 38, 0.8)), url(https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/84975425_2823785284349486_5911962615394861056_o.jpg?_nc_cat=105&_nc_sid=b9115d&_nc_ohc=4b_ehsKWzjsAX-Fz8et&_nc_ht=scontent-mxp1-1.xx&oh=24691ae332fb524b39b624791d5ec1ff&oe=5F38C722) no-repeat top left/cover;
+}
+
+.background-padding{
+  padding-top: 5em;
 }
 
 .site-header {
@@ -520,6 +525,7 @@ input:focus {
   position: relative;
   padding: 1.4rem;
   text-align: center;
+  bottom: 0;
 }
 @media (min-width: 75em) {
   .site-footer {
