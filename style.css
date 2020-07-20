@@ -388,6 +388,7 @@ input:focus {
   background: #77ce45;
   text-align: center;
   bottom: translateY(0%);
+  height: 47rem;
 }
 .header-image .button {
   margin: 0.7rem;
