@@ -1561,7 +1561,7 @@ body {
   padding: 0.5em 1em;
   display: table-cell;
   vertical-align: middle;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
