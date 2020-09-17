@@ -13,6 +13,7 @@ html {
 body {
   color: #77ce45;
   font-family: Lato, "Helvetica Neue", sans-serif;
+  overflow-x: hidden;
 }
 
 a {
