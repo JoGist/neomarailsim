@@ -407,6 +407,10 @@ input:focus {
   background: linear-gradient(rgba(29, 35, 38, 0.8), rgba(29, 35, 38, 0.8)), url("/Assets/Images/Backgrounds/84975425_2823785284349486_5911962615394861056_o.jpg") no-repeat center right/cover;
 }
 
+.background_3 {
+  background: linear-gradient(rgba(29, 35, 38, 0.9), rgba(29, 35, 38, 0.9)), url("/Assets/Images/Backgrounds/20200917234013_1.jpg") no-repeat center right/cover;
+}
+
 .background-padding{
   padding-top: 9em;
 }
@@ -1620,4 +1624,8 @@ body {
   background-color: #77ce45;
   font-size: 25px;
   outline: auto;
+}
+
+.col-md-6{
+  float: right;
 }
