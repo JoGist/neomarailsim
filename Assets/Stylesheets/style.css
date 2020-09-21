@@ -397,6 +397,10 @@ input:focus {
   background: linear-gradient(rgba(29, 35, 38, 0.8), rgba(29, 35, 38, 0.8)), url("/Assets/Images/Backgrounds/84011187_2823784691016212_6700140632343576576_o.jpg") no-repeat top left/cover;
 }
 
+.background_2 {
+  background: linear-gradient(rgba(29, 35, 38, 0.8), rgba(29, 35, 38, 0.8)), url("/Assets/Images/Backgrounds/84975425_2823785284349486_5911962615394861056_o.jpg") no-repeat center right/cover;
+}
+
 .background-padding{
   padding-top: 9em;
 }
