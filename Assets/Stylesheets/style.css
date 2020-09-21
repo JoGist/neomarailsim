@@ -33,6 +33,12 @@ main a:hover {
   color: #fff;
 }
 
+.main_dl {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1,
 h2,
 h3 {
@@ -1569,17 +1575,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*cards*/
 
 
@@ -1600,4 +1595,29 @@ body {
   background: -o-linear-gradient(70deg, #1d2326 30%, #c4302b 45%);
   background: -moz-linear-gradient(70deg, #1d2326 30%, #c4302b 45%);
   background: linear-gradient(70deg, #1d2326 30%, #c4302b 45%);
+}
+
+
+
+.price::before{
+  content:"- ";
+}
+.price{
+  font-size:16px;
+  color: white;
+}
+.cart-buttons{
+  margin-top:20px;
+}
+.quantity{
+  max-width:80px;
+}
+.product-image{
+  width:100%;
+}
+
+.btn-info {
+  background-color: #77ce45;
+  font-size: 25px;
+  outline: auto;
 }
