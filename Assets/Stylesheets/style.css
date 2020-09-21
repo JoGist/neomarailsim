@@ -525,6 +525,7 @@ input:focus {
   padding: 1.4rem;
   text-align: center;
   bottom: 0;
+  padding-bottom: 50px;
 }
 @media (min-width: 75em) {
   .site-footer {

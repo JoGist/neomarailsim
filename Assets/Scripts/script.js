@@ -16,9 +16,8 @@ buttonsArray.forEach(function (el){
 });
 
 
-//slideshow
 
-$('.slider').each(function() {
+/*$('.slider').each(function() {
     var $this = $(this);
     var $group = $this.find('.slide_group');
     var $slides = $this.find('.slide');
@@ -106,4 +105,4 @@ $('.slider').each(function() {
     });
     
     advance();
-  });
+  });*/
