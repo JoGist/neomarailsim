@@ -1624,6 +1624,8 @@ body {
   background-color: #77ce45;
   font-size: 25px;
   outline: auto;
+  margin-left: 73%;
+  margin-top: -10px;
 }
 
 .col-md-6{
