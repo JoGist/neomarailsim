@@ -1628,6 +1628,10 @@ body {
   margin-top: -10px;
 }
 
+.btn-info:hover {
+  background-color: #1d2326;
+}
+
 .col-md-6{
   float: right;
 }
