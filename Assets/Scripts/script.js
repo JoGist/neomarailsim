@@ -16,27 +16,28 @@ buttonsArray.forEach(function (el){
 });
 
 
-$(document).ready(function(){
-  var price = $(".price").text().trim();
-  var quantity = $("#quantity").val();
-  console.log(quantity);
-  //add listener to plus button
-  $("#plus").click(function(e){
-    e.preventDefault();
-    quantity++;
-    $("#quantity").val(quantity);
-    $(".price").text(quantity*price);
-  });
-  $("#minus").click(function(e){
-    e.preventDefault();
-    if(quantity>1){
-      quantity--;
-      $("#quantity").val(quantity);
-      $(".price").text(quantity*price);
-    }
-  });
-  //set total price
-  
+
+/*downlaod slideshow*/
+
+$('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: false,
+  focusOnSelect: true
+});
+
+$('a[data-slide]').click(function(e) {
+  e.preventDefault();
+  var slideno = $(this).data('slide');
+  $('.slider-nav').slick('slickGoTo', slideno - 1);
 });
 
 
