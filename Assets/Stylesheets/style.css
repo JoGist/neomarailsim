@@ -1784,18 +1784,20 @@ body {
 
 
 .main {
-  width:400px;
+  width:auto;
   height: auto;
   margin-right: 60px;
   margin-left: 20px;
+  max-width: 700px;
 }
 h6 {
     background: #77ce45;
     padding: 0.3%;
     position: relative;
     text-align: center;
-    width: 400px;
+    width: auto;
     height: auto;
+    max-width: 700px;
 }
 h5 {
   background: #77ce45;
@@ -1804,7 +1806,7 @@ h5 {
   position: relative;
   text-align: center;
   height: auto;
-  width: 100px;
+  width: auto;
 }
 .action{
   display:block;
@@ -1868,20 +1870,11 @@ h5 {
   }
 }
 @media (min-width: 45em) {
-  .main {
-    width:700px;
-  }
+
   .col-md-6 {
     float: left;
   }
-  h6 {
-    width: 700px;
-    height: auto;
-}
-h5 {
-  height: auto;
-  width: 175px;
-}
+
   .top-navigation {
     float: right;
   }
