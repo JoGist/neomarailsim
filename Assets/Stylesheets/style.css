@@ -1757,6 +1757,9 @@ body {
   max-width: 800px;
 }
 
+.site-main_alt{
+  margin-top: 0px;
+}
 
 .button {
   margin-top: 0px;
@@ -1869,6 +1872,9 @@ h5 {
 }
 @media (min-width: 45em) {
 
+  .site-main_alt{
+    margin-top: 65px;
+  }
   .col-md-6 {
     float: left;
   }
