@@ -1758,15 +1758,13 @@ body {
 }
 
 
-.btn-info {
+.button {
   position: absolute;
   background-color: #77ce45;
   font-size: 25px;
-  outline: auto;
-  margin-top: 60px;
 }
 
-.btn-info:hover {
+.button:hover {
   background-color: #1d2326;
 }
 
