@@ -1759,7 +1759,7 @@ body {
 
 
 .button {
-  position: absolute;
+  margin-top: 0px;
   background-color: #77ce45;
   font-size: 25px;
 }
