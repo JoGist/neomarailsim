@@ -230,6 +230,9 @@ input:focus {
 .fixed-width {
   padding: 1.4rem;
   text-align: center;
+  height: max-content;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .fixed-width::after {
   clear: both;
@@ -545,11 +548,10 @@ input:focus {
 .site-footer {
   background: #1d2326;
   box-shadow: 0 -6px #77ce45;
-  position: relative;
   padding: 1.4rem;
   text-align: center;
   bottom: 0;
-  padding-bottom: 50px;
+  z-index: 2;
 }
 @media (min-width: 75em) {
   .site-footer {
@@ -731,8 +733,6 @@ input:focus {
   overflow: hidden;
   margin-bottom: 68px;
 }
-
-
 
 /*slideshow*/
 /*
@@ -1757,7 +1757,7 @@ body {
   max-width: 800px;
 }
 
-.site-main_alt{
+.site-main_alt {
   margin-top: 0px;
 }
 
@@ -1775,30 +1775,26 @@ body {
   float: none;
 }
 
-
-
 .row {
   margin-right: -15px;
   margin-left: -15px;
 }
 
-
-
 .main {
-  width:auto;
+  width: auto;
   height: auto;
   margin-right: 30px;
   margin-left: 20px;
   max-width: 700px;
 }
 h6 {
-    background: #77ce45;
-    padding: 0.3%;
-    position: relative;
-    text-align: center;
-    width: auto;
-    height: auto;
-    max-width: 700px;
+  background: #77ce45;
+  padding: 0.3%;
+  position: relative;
+  text-align: center;
+  width: auto;
+  height: auto;
+  max-width: 700px;
 }
 h5 {
   background: #77ce45;
@@ -1809,32 +1805,31 @@ h5 {
   height: auto;
   width: auto;
 }
-.action{
-  display:block;
-  margin:100px auto;
-  width:100%;
-  text-align:center;
+.action {
+  display: block;
+  margin: 100px auto;
+  width: 100%;
+  text-align: center;
 }
 .action a {
-  display:inline-block;
-  padding:5px 10px; 
-  background:#f30;
-  color:#fff;
-  text-decoration:none;
+  display: inline-block;
+  padding: 5px 10px;
+  background: #f30;
+  color: #fff;
+  text-decoration: none;
 }
-.action a:hover{
-  background:#000;
+.action a:hover {
+  background: #000;
   color: white;
 }
 
-.slider-nav{
+.slider-nav {
   margin-top: -30px;
 }
 
-.slideshow{
+.slideshow {
   margin: 20px solid green;
 }
-
 
 /* Media queries */
 @media (min-width: 30em) {
@@ -1871,8 +1866,7 @@ h5 {
   }
 }
 @media (min-width: 45em) {
-
-  .site-main_alt{
+  .site-main_alt {
     margin-top: 65px;
   }
   .col-md-6 {
