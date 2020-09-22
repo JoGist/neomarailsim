@@ -732,132 +732,7 @@ input:focus {
   margin-bottom: 68px;
 }
 
-/* Media queries */
-@media (min-width: 30em) {
-  .button.button-login {
-    margin-left: 0.7rem;
-    padding: 0.5em 1.4rem;
-    position: relative;
-    bottom: -4px;
-  }
-  .button.button-login:hover {
-    box-shadow: 0 2px #bf2f45, 0 0 10px #bf2f45, 0 0 0 6px rgba(0, 0, 0, 0.5);
-    bottom: -6px;
-  }
 
-  .top-navigation ul li:first-child {
-    display: block;
-  }
-
-  .col {
-    float: left;
-  }
-
-  .third {
-    width: 33.33333%;
-  }
-
-  .half,
-  .fourth {
-    width: 50%;
-  }
-
-  .small-box {
-    width: 45%;
-  }
-}
-@media (min-width: 45em) {
-  .top-navigation {
-    float: right;
-  }
-  .top-navigation .icon::before {
-    display: none;
-  }
-
-  .site-title {
-    display: block;
-    float: left;
-  }
-
-  .topbar {
-    padding: 0.7rem;
-    position: fixed;
-    top: 0;
-    bottom: initial;
-    width: 100%;
-  }
-
-  .header-title {
-    font-size: 3.6em;
-    line-height: 1.4;
-    margin-top: 0.4666666667em;
-    margin-bottom: 0.4666666667em;
-  }
-
-  .header-description {
-    font-size: 1.4em;
-    line-height: 1.4;
-    margin-top: 1.3em;
-    margin-bottom: 1.3em;
-    margin-top: 1.5em;
-  }
-
-  .login-container {
-    top: 50%;
-  }
-  .login-container .half {
-    width: 50%;
-  }
-  .login-container.unhide {
-    -webkit-transform: translate3d(-50%, 50%, 0);
-    transform: translate3d(-50%, 50%, 0);
-    -webkit-animation: slidedown 0.3s forwards ease-out;
-    animation: slidedown 0.3s forwards ease-out;
-  }
-  .container {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-    margin-bottom: 0px;
-  }
-  .logo-bar {
-    display: none;
-  }
-}
-@media (min-width: 57.5em) {
-  .fourth {
-    width: 25%;
-  }
-
-  .small-box {
-    margin: 2.8rem 2.5%;
-    width: 20%;
-  }
-  .small-box:nth-child(n + 6) {
-    margin-top: 0;
-  }
-}
-@media (min-width: 75em) {
-  html {
-    font-size: 20px;
-  }
-  .header-image {
-    height: 47rem;
-  }
-
-  .topbar {
-    padding-left: calc(50% - 30em);
-    padding-right: calc(50% - 30em);
-  }
-}
-.unhide {
-  -webkit-animation: fadein 0.3s forwards ease-out;
-  animation: fadein 0.3s forwards ease-out;
-  display: block;
-}
 
 /*slideshow*/
 /*
@@ -1884,11 +1759,11 @@ body {
 
 
 .btn-info {
+  position: absolute;
   background-color: #77ce45;
   font-size: 25px;
   outline: auto;
-  margin-left: 73%;
-  margin-top: -10px;
+  margin-top: 60px;
 }
 
 .btn-info:hover {
@@ -1896,8 +1771,10 @@ body {
 }
 
 .col-md-6 {
-  float: right;
+  float: none;
 }
+
+
 
 .row {
   margin-right: -15px;
@@ -1907,26 +1784,27 @@ body {
 
 
 .main {
-  width:800px;
-  display:block;
+  width:400px;
+  height: auto;
+  margin-right: 60px;
+  margin-left: 20px;
 }
 h6 {
     background: #77ce45;
     padding: 0.3%;
     position: relative;
     text-align: center;
-    width: 800px;
+    width: 400px;
     height: auto;
 }
 h5 {
   background: #77ce45;
   margin: 0px;
-  margin-left: 10px;
-  padding: 0.3%;
+  padding: 0.6%;
   position: relative;
   text-align: center;
-  width: 250px;
   height: auto;
+  width: 100px;
 }
 .action{
   display:block;
@@ -1943,4 +1821,155 @@ h5 {
 }
 .action a:hover{
   background:#000;
+  color: white;
+}
+
+.slider-nav{
+  margin-top: -30px;
+}
+
+.slideshow{
+  margin: 20px solid green;
+}
+
+
+/* Media queries */
+@media (min-width: 30em) {
+  .button.button-login {
+    margin-left: 0.7rem;
+    padding: 0.5em 1.4rem;
+    position: relative;
+    bottom: -4px;
+  }
+  .button.button-login:hover {
+    box-shadow: 0 2px #bf2f45, 0 0 10px #bf2f45, 0 0 0 6px rgba(0, 0, 0, 0.5);
+    bottom: -6px;
+  }
+
+  .top-navigation ul li:first-child {
+    display: block;
+  }
+
+  .col {
+    float: left;
+  }
+
+  .third {
+    width: 33.33333%;
+  }
+
+  .half,
+  .fourth {
+    width: 50%;
+  }
+
+  .small-box {
+    width: 45%;
+  }
+}
+@media (min-width: 45em) {
+  .main {
+    width:700px;
+  }
+  .col-md-6 {
+    float: left;
+  }
+  h6 {
+    width: 700px;
+    height: auto;
+}
+h5 {
+  height: auto;
+  width: 175px;
+}
+  .top-navigation {
+    float: right;
+  }
+  .top-navigation .icon::before {
+    display: none;
+  }
+
+  .site-title {
+    display: block;
+    float: left;
+  }
+
+  .topbar {
+    padding: 0.7rem;
+    position: fixed;
+    top: 0;
+    bottom: initial;
+    width: 100%;
+  }
+
+  .header-title {
+    font-size: 3.6em;
+    line-height: 1.4;
+    margin-top: 0.4666666667em;
+    margin-bottom: 0.4666666667em;
+  }
+
+  .header-description {
+    font-size: 1.4em;
+    line-height: 1.4;
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+    margin-top: 1.5em;
+  }
+
+  .login-container {
+    top: 50%;
+  }
+  .login-container .half {
+    width: 50%;
+  }
+  .login-container.unhide {
+    -webkit-transform: translate3d(-50%, 50%, 0);
+    transform: translate3d(-50%, 50%, 0);
+    -webkit-animation: slidedown 0.3s forwards ease-out;
+    animation: slidedown 0.3s forwards ease-out;
+  }
+  .container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    margin-bottom: 0px;
+  }
+  .logo-bar {
+    display: none;
+  }
+}
+@media (min-width: 57.5em) {
+  .fourth {
+    width: 25%;
+  }
+
+  .small-box {
+    margin: 2.8rem 2.5%;
+    width: 20%;
+  }
+  .small-box:nth-child(n + 6) {
+    margin-top: 0;
+  }
+}
+@media (min-width: 75em) {
+  html {
+    font-size: 20px;
+  }
+  .header-image {
+    height: 47rem;
+  }
+
+  .topbar {
+    padding-left: calc(50% - 30em);
+    padding-right: calc(50% - 30em);
+  }
+}
+.unhide {
+  -webkit-animation: fadein 0.3s forwards ease-out;
+  animation: fadein 0.3s forwards ease-out;
+  display: block;
 }
