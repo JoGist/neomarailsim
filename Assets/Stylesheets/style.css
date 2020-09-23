@@ -1790,6 +1790,9 @@ body {
 .col-md-6 {
   float: none;
   margin-left: 0%;
+  z-index: 5;
+  min-width: 100px;
+  min-height: auto;
 }
 
 .row {
