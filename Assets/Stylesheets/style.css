@@ -1765,10 +1765,16 @@ body {
   margin-top: 0px;
   background-color: #77ce45;
   font-size: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .button:hover {
   background-color: #1d2326;
+}
+
+.item-price{
+  margin-left: 20px;
 }
 
 .col-md-6 {
@@ -1836,6 +1842,8 @@ h5 {
   display: inline-block;
   min-width: 100%;
   max-width: 100%;
+  margin-left: 20px;
+  padding-right: 20px;
 }
 
 /* Media queries */
@@ -1887,7 +1895,16 @@ h5 {
   .download-info{
     max-width: 800px;
     min-width: 300px;
+    margin-left: 0px;
+    margin-right: 0px;
   }  
+  .button {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .item-price{
+    margin-left: 0px;
+  }
   .top-navigation {
     float: right;
   }
