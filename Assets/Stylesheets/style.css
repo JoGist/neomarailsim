@@ -1825,6 +1825,10 @@ h5 {
   height: auto;
   width: auto;
 }
+h5:hover .thumb {
+  background: #77ce45;
+  opacity: 0.8;
+}
 .action {
   display: block;
   margin: 100px auto;
