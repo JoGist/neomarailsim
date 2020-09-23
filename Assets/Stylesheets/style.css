@@ -1866,7 +1866,7 @@ h5:hover .thumb {
 .showcase {
   position: relative;
   width: 90%;
-  height: 17em;
+  height: 25em;
   margin: 1em auto;
   overflow: hidden;
   background: transparent;
@@ -1879,20 +1879,21 @@ h5:hover .thumb {
   left: 0;
   right: 300px;
   z-index: 1;
-  background: #293853;
+  background: #1d2326;
   background-position: 50% 50%;
   background-size: cover;
   transition: right 250ms ease, left 250ms ease;
 }
 
 .thumbnail--awesome {
-  background-image: url("http://fc05.deviantart.net/fs70/f/2010/102/9/0/Google_Chrome_Wallpaper_by_dreski1992.jpg");
+  background-image: url("../Images/Backgrounds/20200917234013_1.jpg");
 }
 
 .thumbnail__overlay {
   position: relative;
-  padding-top: 8em;
+  padding-top: 5%;
   height: 100%;
+  width: 100%;
   background: rgba(0, 0, 0, 0.4);
   text-align: center;
   opacity: 0;
@@ -1907,7 +1908,7 @@ h5:hover .thumb {
   right: 0;
   padding: 20px;
   z-index: 2;
-  background: white;
+  background: #1d2326;
   text-align: center;
   transition: background 250ms ease, color 250ms, width 250ms ease, padding 250ms ease;
 }
@@ -1921,7 +1922,7 @@ h5:hover .thumb {
   margin-top: -10px;
   border-style: solid;
   border-width: 10px;
-  border-color: transparent #fff transparent transparent;
+  border-color: transparent #1d2326 transparent transparent;
   content: "";
   transition: border-color 250ms;
 }
@@ -1937,11 +1938,11 @@ h5:hover .thumb {
   width: 350px;
   padding-left: 45px;
   padding-right: 45px;
-  background: #202426;
-  color: #fff;
+  background: #77ce45;
+  color: #1d2326;
 }
 .showcase:hover .desc:after {
-  border-color: transparent #202426 transparent transparent;
+  border-color: transparent #77ce45 transparent transparent;
 }
 
 .showcase--inverted .thumbnail {
@@ -1956,7 +1957,7 @@ h5:hover .thumb {
 .showcase--inverted .desc:after {
   left: auto;
   right: -20px;
-  border-color: transparent transparent transparent #fff;
+  border-color: transparent transparent transparent #1d2326;
 }
 
 .showcase--inverted:hover .thumbnail {
@@ -1964,17 +1965,25 @@ h5:hover .thumb {
   right: -25px;
 }
 .showcase--inverted:hover .desc:after {
-  border-color: transparent transparent transparent #202426;
+  border-color: transparent transparent transparent #77ce45;
 }
 
-.btn {
-  padding: 1em 2em;
+.proj-info {
   color: #fff;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 500;
   transition: background 250ms;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
-.btn:hover {
+
+.proj-name{
+  color: white;
+}
+
+.thumbnail__overlay:hover {
   background: rgba(0, 0, 0, 0.6);
 }
 
