@@ -1903,10 +1903,11 @@ h5 {
     margin-left: 20px;
   }
   .download-info{
-    max-width: 800px;
+    text-align: justify;
+    max-width: 810px;
     min-width: 300px;
     margin-left: 0px;
-    margin-right: 0px;
+    margin-right: -120px;
   }  
   .button {
     margin-left: 0px;
