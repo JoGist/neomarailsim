@@ -292,6 +292,16 @@ input:focus {
   padding-top: 1em;
   padding-bottom: 0.1em;
 }
+.news-bar_alt {
+  background: #1d2326;
+  box-shadow: 0 6px #77ce45;
+  color: #77ce45;
+  width: 100%;
+  margin-top: -1.1em;
+  margin-bottom: 0.3em;
+  padding-top: 1em;
+  padding-bottom: 0.1em;
+}
 .news h3 {
   display: inline-block;
   word-wrap: break-word;
