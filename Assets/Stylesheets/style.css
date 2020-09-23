@@ -1988,8 +1988,20 @@ h5:hover .thumb {
   color: white;
 }
 
-.thumbnail__overlay:hover {
+.proj-autor{
+  color: #77ce45;
+}
+
+.showcase:hover .thumbnail__overlay{
   background: rgba(0, 0, 0, 0.6);
+}
+
+.showcase:hover .proj-autor{
+  color: black;
+}
+
+.showcase:hover .proj-name{
+  color: black;
 }
 
 /* Media queries */
