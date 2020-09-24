@@ -2477,7 +2477,7 @@ ol ol {
 }
 .carousel-indicators {
   position: absolute;
-  bottom: 10px;
+  bottom: -10px;
   left: 50%;
   z-index: 15;
   width: 60%;
@@ -2488,8 +2488,8 @@ ol ol {
 }
 .carousel-indicators li {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 9px;
+  height: 9px;
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
@@ -2498,8 +2498,8 @@ ol ol {
   border-radius: 10px;
 }
 .carousel-indicators .active {
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   margin: 0;
   background-color: #fff;
 }
