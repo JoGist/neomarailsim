@@ -2447,7 +2447,6 @@ ol ol {
   );
   background-repeat: repeat-x;
 }
-.carousel-control:focus,
 .carousel-control:hover {
   color: #fff;
   text-decoration: none;
@@ -2463,11 +2462,11 @@ ol ol {
   margin-top: -10px;
 }
 .carousel-control .glyphicon-chevron-left {
-  left: 50%;
+  left: 20%;
   margin-left: -10px;
 }
 .carousel-control .glyphicon-chevron-right {
-  right: 50%;
+  right: 20%;
   margin-right: -10px;
 }
 .carousel-indicators {
