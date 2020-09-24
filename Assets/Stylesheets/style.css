@@ -434,6 +434,12 @@ input:focus {
       right/cover;
 }
 
+.background_4 {
+  background: linear-gradient(rgba(29, 35, 38, 0.8), rgba(29, 35, 38, 0.8)),
+    url("/Assets/Images/Backgrounds/20200924114918_1.jpg")
+      no-repeat top left/cover;
+}
+
 .background-padding {
   padding-top: 5em;
 }
