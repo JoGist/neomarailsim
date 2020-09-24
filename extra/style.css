@@ -1,0 +1,19 @@
+body {
+  background-color: #292b2a;
+}
+
+section {
+  padding: 25px;
+}
+
+h1 {
+  color: #ccc;
+}
+
+.item {
+  width: 100%;
+  height: 420px;
+}
+.item img {
+  display: none;
+}
