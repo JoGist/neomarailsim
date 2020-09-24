@@ -1861,6 +1861,7 @@ h5:hover .thumb {
   max-width: 100%;
   margin-left: 20px;
   padding-right: 20px;
+  padding-right: 50px;
 }
 
 .showcase {
@@ -2066,6 +2067,7 @@ h5:hover .thumb {
     min-width: 300px;
     margin-left: 0px;
     margin-right: -120px;
+    padding-right: 0px;
   }
   .button {
     margin-left: 0px;
