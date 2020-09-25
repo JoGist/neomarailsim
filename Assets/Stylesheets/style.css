@@ -2532,7 +2532,7 @@ ol ol {
   transform: translate(-50%, -50%);
   font-weight: 100; 
   color:#fff; 
-  text-shadow: -1.5px -1.5px 0 #1d2326, 1.5px -1.5px 0 #1d2326, -1.5px 1.5px 0 #1d2326, 1.5px 1.5px 0 #1d2326;
+  text-shadow: -2px -2px 0 #1d2326, 2px -2px 0 #1d2326, -2px 2px 0 #1d2326, 2px 2px 0 #1d2326;
   z-index: 2;
   font-size:calc(12px + 1.5vw);
 }
