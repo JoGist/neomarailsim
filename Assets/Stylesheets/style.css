@@ -418,25 +418,25 @@ input:focus {
 
 .background {
   background: linear-gradient(rgba(29, 35, 38, 0.8), rgba(29, 35, 38, 0.8)),
-    url("/Assets/Images/Backgrounds/84011187_2823784691016212_6700140632343576576_o.jpg")
+    url("/Assets/Images/Backgrounds/84011187_2823784691016212_6700140632343576576_o.jpeg")
       no-repeat top left/cover;
 }
 
 .background_2 {
   background: linear-gradient(rgba(29, 35, 38, 0.8), rgba(29, 35, 38, 0.8)),
-    url("/Assets/Images/Backgrounds/84975425_2823785284349486_5911962615394861056_o.jpg")
+    url("/Assets/Images/Backgrounds/84975425_2823785284349486_5911962615394861056_o.jpeg")
       no-repeat center right/cover;
 }
 
 .background_3 {
   background: linear-gradient(rgba(29, 35, 38, 0.9), rgba(29, 35, 38, 0.9)),
-    url("/Assets/Images/Backgrounds/20200917234013_1.jpg") no-repeat center
+    url("/Assets/Images/Backgrounds/20200917234013_1.jpeg") no-repeat center
       right/cover;
 }
 
 .background_4 {
   background: linear-gradient(rgba(29, 35, 38, 0.8), rgba(29, 35, 38, 0.8)),
-    url("/Assets/Images/Backgrounds/20200924114918_1.jpg")
+    url("/Assets/Images/Backgrounds/20200924114918_1.jpeg")
       no-repeat top left/cover;
 }
 
@@ -1893,11 +1893,11 @@ h5:hover .thumb {
 }
 
 .thumbnail--awesome {
-  background-image: url("../Images/Backgrounds/20200917234013_1.jpg");
+  background-image: url("../Images/Backgrounds/20200917234013_1.jpeg");
 }
 
 .thumbnail--ok {
-  background-image: url("../Images/Slideshow/Uagps_Serie.jpg");
+  background-image: url("../Images/Slideshow/Uagps_Serie.jpeg");
 }
 
 .thumbnail__overlay {
