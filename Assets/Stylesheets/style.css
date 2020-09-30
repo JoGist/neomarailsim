@@ -1908,6 +1908,10 @@ h5:hover .thumb {
   background-image: url("../Images/Downloads/Oggetti/Ford Transit  Plasser Italiana/PartPonteStzVelletri_PlasserVan-min.jpg");
 }
 
+.thumbnail--stadler-pop {
+  background-image: url("../Images/Downloads/Treni\ completi/ETR 104 Pop repaint/RePa_ETR104Pop_MP_02.jpg");
+}
+
 
 .thumbnail__overlay {
   position: relative;
