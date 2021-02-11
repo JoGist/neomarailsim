@@ -1904,6 +1904,10 @@ h5:hover .thumb {
   background-image: url("../Images/Downloads/Locomotori/Repaint V1000 Oceanogate/V100_OG-min.JPG");
 }
 
+.thumbnail--carro-pianale {
+  background-image: url("../Images/Downloads/Carri merci/Carro-SVI-CP32/1.jpg");
+}
+
 .thumbnail--ford-transit {
   background-image: url("../Images/Downloads/Oggetti/Ford Transit  Plasser Italiana/PartPonteStzVelletri_PlasserVan-min.jpg");
 }
